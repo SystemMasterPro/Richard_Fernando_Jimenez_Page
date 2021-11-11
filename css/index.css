@@ -215,6 +215,24 @@ h1, h3{
 	cursor: pointer;
     transform: rotate(45deg);
 }
+
+/* SCROLL */
+
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: #F5F5F5;
+}
+::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.9);
+    border-radius: 10px;
+    background-color: #CCCCCC;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: var(--h-green);
+    background-image: -webkit-linear-gradient(90deg,transparent,rgba(0, 0, 0, 0.4) 50%,transparent,transparent)
+}
+
 /* MEDIA QUERYS */
 @media(max-width:1000px){
     .main-img{
