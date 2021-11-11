@@ -1,0 +1,11 @@
+:root{
+    /* COLORES BASE */
+    --white: #FFFFFF;
+    --black: #000000;
+    --very-ligth-pink: #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --h-green: #ACD9B2;
+    --sm:14px;
+    --md:16px;
+    --lg:18px;
+}
