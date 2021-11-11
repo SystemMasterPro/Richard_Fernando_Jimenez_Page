@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@Richard6_10">
+    <meta name="twitter:creator" content="@Richard6_10">
+    <meta property="og:title" content="RICHARD FERNANDO JIMENEZ">
+    <meta property="og:description" content="Richard Fernando Jimenez - Ecuatoriano, originario de Zamora/Zamora Chinchipe, actualmente viviendo en Yantzaza,
+        apasionado por las tecnologías particularmente por Angular, React y Svelte en Frontend, asi como por Django y Node en
+        Backend">
+    <meta property="og:image" content="https://i.imgur.com/tJP4Spn.jpg">
+    <meta property="og:url" content="">
+    <meta property="og:type" content="website">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,500;0,700;1,300&family=Quicksand:wght@300;500;700&display=swap"
+        rel="stylesheet">
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- LOGO -->
+    <link rel="shortcut icon" href="https://i.imgur.com/aPwkTZW.png" type="image/x-icon">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <title>Richard Fernando Jimenez</title>
+</head>
+
+<body>
+    <div id="particles-js"></div>
+    <nav>
+        <h4 class="menu">Richardeveloper</h4>
+        <div class="navbar-left">
+            <img src="https://i.imgur.com/aPwkTZW.png" alt="" class="logo">
+            <ul>
+                <li>
+                    <a href="./index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="./projects">Proyectos</a>
+                </li>
+                <li>
+                    <a href="">Contacto</a>
+                </li>
+                <li>
+                    <a href="./workshops">Talleres</a>
+                </li>
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <ul>
+                <li class="navbar-email">
+                    <a href="mailto:richardjimenez.9641@gmail.com"
+                        class="email-navbar">richardjimenez.9641@gmail.com</a>
+                </li>
+                <li class="navbar-message-gmail">
+                    <img src="https://1000marcas.net/wp-content/uploads/2019/11/logo-Gmail-1.png" alt="" class="gmail">
+                    <div>9</div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main class="container-email">
+        <section class="container-box">
+            <h2 class="title-form">PONGAMONOS EN CONTACTO</h2>
+                <form action="" class="form">
+                    <label for="name" class="label">
+                        Ingrese su nombre:
+                    </label>
+                    <input type="text" id="name" class="input" placeholder="" autofocus autocomplete="name">
+                
+                    <label for="email" class="label">
+                        Ingrese su correo:
+                    </label>
+                    <input type="email" id="email" class="input" placeholder=" ejemplo@ejemplo.com" autocomplete="email">
+
+                    <label for="message" class="label">
+                        Ingrese su mensaje:
+                    </label>
+                    <textarea type="text" name="message" id="message"></textarea>
+                
+                    <button id="sendEmail" class="primary-button">Enviar Correo</button>
+                </form>
+                <div class="footer">
+                    <a href="https://twitter.com/Richard6_10" target="_blank"><i
+                            class="fab fa-twitter fa-1.5x color-icon mx-3"></i></a>
+                    <a href="https://github.com/SystemMasterPro" target="_blank"><i
+                            class="fab fa-github fa-1x color-icon mx-3"></i></a>
+                    <a href="https://www.facebook.com/richardfernando.jimenez/" target="_blank"><i
+                            class="fab fa-facebook-square fa-1x color-icon mx-3"></i></a>
+                    <a href="https://www.linkedin.com/in/richard-fernando-jim%C3%A9nez-%F0%9F%87%AA%F0%9F%87%A8-5137491a5/"
+                        target="_blank"><i class="fab fa-linkedin-in fa-1x color-icon mx-3"></i></a>
+                    <a href="https://www.youtube.com/channel/UCvHWv1YfSPOwAyW2c3UQvJw" target="_blank"><i
+                            class="fab fa-youtube fa-1x color-icon mx-3"></i></a>
+                </div>
+        </section>
+    </main>
+    <a href="https://m.me/richardfernando.jimenez"
+        class="btn-flotante-messenger animate__animated animate__rotateInDownLeft" target="_blank"><img
+            src="https://www.iconpacks.net/icons/2/free-facebook-messenger-icon-2881-thumb.png" alt="messenger"></a>
+    <a href="https://wa.me/+593962093738/?text=Hola, te saludo desde tu sitio web"
+        class="btn-flotante-telegram animate__animated animate__rotateInDownLeft" target="_blank"><img
+            src="https://evernet.net.co/style/images/telegram.png" alt="messenger"></a>
+    <!-- PARTICLES JS -->
+    <script src="./js/particles.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.all.min.js"></script>
+    <script src="./js/sendEmail.js"></script>
+</body>
+
+</html>

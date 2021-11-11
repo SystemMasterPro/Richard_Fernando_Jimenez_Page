@@ -22,6 +22,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,500;0,700;1,300&family=Quicksand:wght@300;500;700&display=swap"
         rel="stylesheet">
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <!-- LOGO -->
     <link rel="shortcut icon" href="https://i.imgur.com/aPwkTZW.png" type="image/x-icon">
     <!-- CSS -->
@@ -29,20 +32,20 @@
     <title>Richard Fernando Jimenez</title>
 </head>
 <body>
-    <div id="particles-js">
+        <div id="particles-js"></div>
             <nav>
                 <h4 class="menu">Richardeveloper</h4>
                 <div class="navbar-left">
                     <img src="https://i.imgur.com/aPwkTZW.png" alt="" class="logo">
                     <ul>
                         <li>
-                            <a href="/">Inicio</a>
+                            <a href="">Inicio</a>
                         </li>
                         <li>
                             <a href="/">Proyectos</a>
                         </li>
                         <li>
-                            <a href="/">Contacto</a>
+                            <a href="./contact.html">Contacto</a>
                         </li>
                         <li>
                             <a href="/">Talleres</a>
@@ -51,7 +54,9 @@
                 </div>
                 <div class="navbar-right">
                     <ul>
-                        <li class="navbar-email">richardjimenez.9641@gmail.com</li>
+                        <li class="navbar-email">
+                            <a href="mailto:richardjimenez.9641@gmail.com" class="email-navbar">richardjimenez.9641@gmail.com</a>
+                        </li>
                         <li class="navbar-message-gmail">
                             <img src="https://1000marcas.net/wp-content/uploads/2019/11/logo-Gmail-1.png" alt="" class="gmail">
                             <div>9</div>
@@ -59,10 +64,54 @@
                     </ul>
                 </div>
             </nav>
-            <main>
-                
+            <main class="container">
+                <section class="main-container">
+                    <div class="main-img">
+                        <img src="https://i.imgur.com/MAsCsY4.jpg" loading="lazy" alt="Image-Profile">
+                    </div>
+                    <div class="main-description">
+                        <h1>Hola 🖐</h1>
+                        <h5>
+                            Me llamo Richard Fernando Jiménez (@Richard6_10) 
+                        </h5>
+                        <h3>Desarrollador de Software Profesional</h3>
+                        <p>
+                            Ecuatoriano, originario de Zamora/Zamora Chinchipe, actualmente viviendo en Yantzaza,
+                            apasionado por las tecnologías, particularmente por Angular, React y Svelte en Frontend,
+                            asi como por Django y Node en Backend.
+                        </p>
+                        <p>
+                            Me especializo en <span class="javascript">JavaScript</span> <span class="angular">Angular</span>
+                            <span class="svelte">Svelte</span> <span class="react">React</span>
+                            <span class="node">Node</span> y otras tecnologías como <span class="python">Python</span> 
+                            <span class="django">Django</span> <span class="java">Java</span> 
+                            <span class="spring">Spring Boot</span> <span class="github">GitHub</span>.
+                        </p>
+                        <p>
+                            Me encanta compartir mi conocimiento con la comunidad a través de reuniones, artículos, talleres, etc.
+                        </p>
+                        <p>
+                            Recientemente estoy aprendiendo a trabajar en AWS y cuando no estoy codificando salgo a correr o leo un buen libro.
+                        </p>
+                        <div class="footer">
+                            <a href="https://twitter.com/Richard6_10" target="_blank"><i class="fab fa-twitter fa-1.5x color-icon mx-3"></i></a>
+                            <a href="https://github.com/SystemMasterPro" target="_blank"><i class="fab fa-github fa-1x color-icon mx-3"></i></a>
+                            <a href="https://www.facebook.com/richardfernando.jimenez/" target="_blank"><i
+                                    class="fab fa-facebook-square fa-1x color-icon mx-3"></i></a>
+                            <a href="https://www.linkedin.com/in/richard-fernando-jim%C3%A9nez-%F0%9F%87%AA%F0%9F%87%A8-5137491a5/" target="_blank"><i
+                                    class="fab fa-linkedin-in fa-1x color-icon mx-3"></i></a>
+                            <a href="https://www.youtube.com/channel/UCvHWv1YfSPOwAyW2c3UQvJw" target="_blank"><i
+                                    class="fab fa-youtube fa-1x color-icon mx-3"></i></a>
+                        </div>
+                    </div>
+                </section>
             </main>
-    </div>
+            <a href="https://m.me/richardfernando.jimenez"
+                class="btn-flotante-messenger animate__animated animate__rotateInDownLeft" target="_blank"><img
+                    src="https://www.iconpacks.net/icons/2/free-facebook-messenger-icon-2881-thumb.png" alt="messenger"></a>
+            <a href="https://wa.me/+593962093738/?text=Hola, te saludo desde tu sitio web"
+                class="btn-flotante-telegram animate__animated animate__rotateInDownLeft" target="_blank"><img
+                    src="https://evernet.net.co/style/images/telegram.png" alt="messenger"></a>
     <!-- PARTICLES JS -->
     <script src="./js/particles.min.js"></script>
     <script src="js/app.js"></script>
