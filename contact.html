@@ -30,6 +30,8 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/contact.css">
+    <!-- EmailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
     <title>Contacto - Richard Fernando Jimenez</title>
 </head>
 
@@ -69,21 +71,21 @@
     <main class="container-email">
         <section class="container-box">
             <h2 class="title-form">PONGAMONOS EN CONTACTO</h2>
-                <form action="" class="form">
+                <form action="" id="MyFormEmail" class="form">
                     <label for="name" class="label">
                         Nombre:
                     </label>
-                    <input type="text" id="name" class="input" placeholder="" autofocus autocomplete="name">
+                    <input type="text" name="name" id="name" class="input" autofocus autocomplete="name" required>
                 
                     <label for="email" class="label">
                         Ingrese su correo:
                     </label>
-                    <input type="email" id="email" class="input" placeholder=" ejemplo@ejemplo.com" autocomplete="email">
+                    <input type="email" name="email" id="email" class="input" placeholder=" ejemplo@ejemplo.com" autocomplete="email" required>
 
                     <label for="message" class="label">
                         Ingrese su mensaje:
                     </label>
-                    <textarea type="text" name="message" id="message"></textarea>
+                    <textarea type="text" name="message" id="message" required></textarea>
                 
                     <button id="sendEmail" class="primary-button">Enviar Correo</button>
                 </form>
