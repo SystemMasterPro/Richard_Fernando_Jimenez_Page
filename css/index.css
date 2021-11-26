@@ -126,8 +126,7 @@ nav{
     box-shadow: 1px 5px 8px 8px rgba(255, 255, 255, 0.5);
 }
 .main-img img:hover{
-    /* transform: rotate(90deg); */
-    transform: scale(0.5) translate(-0%, -40%);
+    box-shadow: 1px 5px 8px 8px var(--h-green);
 }
 .main-description{
     /* width: 100%; */
@@ -179,6 +178,14 @@ h1, h3{
 }
 .footer a:hover{
     color: var(--h-green);
+}
+.cvDowload{
+    font-size: 20px !important;
+    text-decoration: none;
+    color: var(--h-green) !important;
+}
+.cvDowload:hover{
+    color: var(--white) !important;
 }
 
 /* Botones Flotantes */
@@ -289,6 +296,9 @@ h1, h3{
     .btn-flotante-telegram {
 	    bottom: 80px;
 	    right: 25px;
+    }
+    .cvDowload{
+        font-size: 15px !important;
     }
 }
 @media(max-width:675px){

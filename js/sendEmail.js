@@ -4,6 +4,8 @@ const name = document.getElementById("name");
 const email = document.getElementById("email");
 const message = document.getElementById("message");
 
+var regularEmail = /^(([^<>()\[\]\\.,;:\s@”]+(\.[^<>()\[\]\\.,;:\s@”]+)*)|(“.+”))@((\[[0–9]{1,3}\.[0–9]{1,3}\.[0–9]{1,3}\.[0–9]{1,3}])|(([a-zA-Z\-0–9]+\.)+[a-zA-Z]{2,}))$/
+
 send.addEventListener('click', function () {
     event.preventDefault();
     if (name.value === "" || email.value === "" || message.value === "") {
@@ -11,6 +13,12 @@ send.addEventListener('click', function () {
             icon: 'warning',
             title: 'Upss...',
             text: 'Se requiere llenar todos los campos!!!'
+        });
+    } else if (!regularEmail.test(email.value)) {
+        Swal.fire({
+            icon: 'warning',
+            title: 'Upss...',
+            text: 'Su correo electronico es incorrecto! Verifiquelo y vuelva a intentar'
         });
     } else {
         emailjs.sendForm('gmailMessage', 'template_ysv8ybn', 'form', 'user_ji7M3KpHpxSg2fvS2O20z')
