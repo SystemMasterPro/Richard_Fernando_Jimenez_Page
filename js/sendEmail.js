@@ -38,5 +38,27 @@ send.addEventListener('click', function () {
                     text: 'Hemos tenido problemas al enviar su correo, verifique su conexion y vuelva a intentarlo.'
                 });
             });
+        let timerInterval;
+        Swal.fire({
+          title: "Enviando Mensaje!",
+          html: "Por favor espere...",
+          timer: 2000,
+          timerProgressBar: true,
+          didOpen: () => {
+            Swal.showLoading();
+            const b = Swal.getHtmlContainer().querySelector("b");
+            timerInterval = setInterval(() => {
+              b.textContent = Swal.getTimerLeft();
+            }, 100);
+          },
+          willClose: () => {
+            clearInterval(timerInterval);
+          },
+        }).then((result) => {
+          /* Read more about handling dismissals below */
+          if (result.dismiss === Swal.DismissReason.timer) {
+            console.log("I was closed by the timer");
+          }
+        });
     }
 });
