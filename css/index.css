@@ -222,6 +222,22 @@ h1, h3{
 	cursor: pointer;
     transform: rotate(45deg);
 }
+.btn-flotante-whatsapp img:hover {
+	cursor: pointer;
+    transform: rotate(20deg);
+}
+.btn-flotante-whatsapp{
+    border-radius: 10%;
+	padding: 2px 2px; /* Relleno del boton */
+	position: fixed;
+	bottom: 10px;
+	right: 30px;
+	z-index: 99;
+}
+.btn-flotante-whatsapp img{
+    height: 70px;
+    width: 80px;
+}
 
 /* SCROLL */
 
@@ -326,5 +342,9 @@ h1, h3{
     .btn-flotante-telegram {
 	    bottom: 65px;
 	    right: 5px;
+    }
+    .btn-flotante-whatsapp {
+	    bottom: 115px;
+	    right: -6px;
     }
 }
