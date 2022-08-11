@@ -276,6 +276,9 @@ h1, h3{
     .btn-flotante-telegram {
 	    bottom: 100px;
     }
+    .btn-flotante-whatsapp {
+	    bottom: -9px;
+    }
 }
 @media(max-width:790px){
     .logo{
@@ -312,6 +315,10 @@ h1, h3{
     .btn-flotante-telegram {
 	    bottom: 80px;
 	    right: 25px;
+    }
+    .btn-flotante-whatsapp {
+	    bottom: 128px;
+	    right: 15px;
     }
     .cvDowload{
         font-size: 15px !important;
