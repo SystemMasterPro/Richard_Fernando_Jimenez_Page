@@ -230,13 +230,13 @@ h1, h3{
     border-radius: 10%;
 	padding: 2px 2px; /* Relleno del boton */
 	position: fixed;
-	bottom: 10px;
-	right: 30px;
+	bottom: 20px;
+	right: 45px;
 	z-index: 99;
 }
 .btn-flotante-whatsapp img{
-    height: 70px;
-    width: 80px;
+    height: 45px;
+    width: 44px;
 }
 
 /* SCROLL */
@@ -277,7 +277,7 @@ h1, h3{
 	    bottom: 100px;
     }
     .btn-flotante-whatsapp {
-	    bottom: -9px;
+	    bottom: 3px;
     }
 }
 @media(max-width:790px){
@@ -317,8 +317,8 @@ h1, h3{
 	    right: 25px;
     }
     .btn-flotante-whatsapp {
-	    bottom: 128px;
-	    right: 15px;
+	    bottom: 143px;
+	    right: 33px;
     }
     .cvDowload{
         font-size: 15px !important;
@@ -351,7 +351,7 @@ h1, h3{
 	    right: 5px;
     }
     .btn-flotante-whatsapp {
-	    bottom: 115px;
-	    right: -6px;
+	    bottom: 123px;
+	    right: 13px;
     }
 }
