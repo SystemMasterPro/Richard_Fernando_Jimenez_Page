@@ -21,7 +21,7 @@ send.addEventListener('click', function () {
             text: 'Su correo electronico es incorrecto! Verifiquelo y vuelva a intentar'
         });
     } else {
-        emailjs.sendForm('gmailMessage', 'template_ysv8ybn', 'form', 'user_ji7M3KpHpxSg2fvS2O20z')
+        emailjs.sendForm('service_b69xe5s', 'template_ysv8ybn', 'form', 'user_ji7M3KpHpxSg2fvS2O20z')
             .then(function (response) {
                 Swal.fire({
                     icon: 'success',
