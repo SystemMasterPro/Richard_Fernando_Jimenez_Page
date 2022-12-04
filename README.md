@@ -1,7 +1,7 @@
-# PAGINA ESTATICA RICHARDEVELOPER
+# RICHARDEVELOPER 😎
 
-Pagina Personal donde se muestra toda la informacion publica acerca del Desarrolador de Software Richard Fernando Jimenez.
+Pagina Personal donde se muestra toda la informacion publica acerca del Desarrolador de Software Richard Fernando Jiménez.
 
-#### QUIERES SER FELIZ? -> TRABAJA Y HAZ LO QUE AMAS, COMO VES ES FACIL. 
+#### ADICTO AL CÓDIGO 💪💻❤️ 
 
-### 2021
+### 2022 - 2023 🌎🟡🔵🔴💻
